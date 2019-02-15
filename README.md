@@ -15,13 +15,13 @@ On the left, we have:
 * user info
   * username
   * time that user has been online
-* list of rooms available (only 2 available for demo purposes)
+* list of rooms available (only a few available for demo purposes)
 
 On the right, once you select a chat room, we show:
 
 * room information
   * room name,
-  * list of usernames of users in the room (current user's username is highlighted and appears first)
+  * list of user names of users in the room (current user's username is highlighted and appears first)
 * messages
   * message text
   * username of the user that posted it
@@ -50,4 +50,3 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-# chat-client
