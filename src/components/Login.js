@@ -52,7 +52,7 @@ const Login = connect(
 						</LoginInputStyled>
 					</InputGroup>
 					<LoginButtonStyled>
-						<Button onClick={() => this.goToChat()} color="danger"  disabled={disabledLogin}>Join the Doordash Chat!</Button>
+						<Button onClick={() => this.goToChat()} color="danger"  disabled={disabledLogin}>Join the Chat!</Button>
 					</LoginButtonStyled>
 				</LoginContainerStyled>
 			)
