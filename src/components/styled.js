@@ -42,11 +42,11 @@ export const OtherMessage = styled.div`
 export const UserMessage = styled.div`
 	border: 0px solid #189d0e;
 	border-radius: 32px;
-	color: white !important;
+	color: white;
 	display: inline-block;
 	margin: 10px 0 0;
 	padding: 9px 16px;
-	text-decoration: none !important;
+	text-decoration: none;
 	margin: 1% 1% 0% 1%;
 	background-color: #FF1940;
 	max-width: 50%;

@@ -1,4 +1,4 @@
-const User = (state = {username : "anonymous", loginTime: Date.now()}, action) => {
+const User = (state = {username : sessionStorage.getItem('userName') || "anonymous", loginTime: Date.now()}, action) => {
 	switch(action.type) {
 		case 'SET_USERNAME':
 			return {...state, username: action.payload, loginTime: Date.now()}

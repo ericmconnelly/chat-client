@@ -37,6 +37,7 @@ const Login = connect(
 			const { setUsername } = this.props;
 
 			setUsername(this.state.userName);
+			sessionStorage.setItem('userName', this.state.userName);
 			history.push('/chat');
 		};
 

@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Simple Chat Messaging App
 
 This is a simple chat messaging app. It will
   1. take in a username to allow someone to "login", and then 
@@ -31,6 +32,7 @@ On the right, once you select a chat room, we show:
 
 In the project directory, to start up the front end client app, run
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.<br>
